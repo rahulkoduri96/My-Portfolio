@@ -1,0 +1,70 @@
+*{
+    font-family: Montserrat;
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    transition: .2s linear;
+}
+
+body{
+    background-color: #EDF2F8;
+    width: 100vw;
+}
+
+.navbar{
+    background-color: white;
+    padding: 1rem 1rem;
+    right: 50%;
+    width: 85vw;
+    transform: translateX(50%);
+    margin: 1rem 1rem;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2.5rem;
+    box-shadow: 6px 15px 15px rgba(0, 0, 0, .02);
+}
+
+.logo{
+    position: relative;
+    left: 3rem;
+}
+
+.logo img{
+    width: 9rem;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    padding-right: 2rem;
+    color: #464D70;
+    font-weight: 400;
+}
+
+.navbar .menu a:hover{
+    font-weight: 500;
+    color: black;
+}
+
+.navbar .cv{
+    position: relative;
+    right: 3rem;
+}
+
+.navbar .cv a{
+    position: relative;
+    border-radius: 2.5rem;
+    text-decoration: none;
+    font-size: small;
+    color: #464D70;
+}
+
+.navbar .cv a:hover{
+    font-weight: 500;
+    color: black;
+}
+
+.navbar .cv i{
+    font-size: 1rem;
+    padding-left: .5rem;
+}
