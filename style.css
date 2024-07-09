@@ -13,9 +13,7 @@ body{
 .navbar{
     background-color: white;
     padding: 1rem 1rem;
-    right: 50%;
     width: 85vw;
-    transform: translateX(50%);
     margin: 1rem 1rem;
     display: flex;
     position: fixed;
@@ -32,6 +30,10 @@ body{
 
 .logo img{
     width: 9rem;
+}
+
+.mainnavbar{
+    background-color: #464D70;
 }
 
 .navbar .menu a{
@@ -67,4 +69,58 @@ body{
 .navbar .cv i{
     font-size: 1rem;
     padding-left: .5rem;
+}
+
+.navbar .cv i:hover{
+    font-weight: 500;
+    color: black;
+}
+.hero{
+    height: 100vh;
+    /* background-color: #464D70; */
+}
+.hero .background{
+    position: relative;
+    z-index: -2;
+    text-align: center;
+    top: 5rem;
+}
+.hero .background img{
+    width: 40%;
+}
+
+.initial{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    width: 12rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+}
+.waveEmoji img{
+    width: 3rem;
+}
+
+.myName h5{
+    color: #918C9F;
+    font-weight: 500;
+}
+
+.myName h2{
+    transform: translateX(-1%);
+}
+
+.profilePic{
+    position: absolute;
+    top: 10rem;
+    width: 100vw;
+    text-align: center;
+}
+.profilePic .img{
+    width: 10rem;
 }
