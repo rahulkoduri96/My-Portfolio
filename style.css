@@ -5,6 +5,12 @@
     transition: .2s linear;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #EDF2F8;
     width: 100vw;
@@ -17,6 +23,7 @@ body{
     margin: 1rem 1rem;
     display: flex;
     position: fixed;
+    z-index: 2;
     justify-content: space-between;
     align-items: center;
     border-radius: 2.5rem;
@@ -129,11 +136,134 @@ nav{
 .about{
     background-color: white;
     display: flex;
-    padding: 5rem 8rem;
+    padding: 5rem 10rem;
     justify-content: space-around;
+    align-items: center;
 }
 
 .about .myPic img{
     width: 18rem;
     background-color: #D7C4FF;
+}
+
+.about .bio{
+    text-align: left;
+    padding-left: 5rem;
+    /* background-color: #464D70; */
+}
+
+.about .bio-info{
+    margin-bottom: 1rem;
+}
+
+.about .bio-info h4{
+    color: #918C9F;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.about .bio-info h2{
+    font-size: 1.5rem;
+}
+
+.bio p{
+    text-align: justify;
+}
+
+.bio .details{
+    display: flex;
+    gap: 8rem;
+    padding: .8rem 0;
+}
+
+.bio .details p{
+    margin-bottom: 1rem;
+}
+
+.bio .details span{
+    font-weight: 700;
+}
+
+.bio a{
+    text-decoration: none;
+    padding: .8rem .8rem;
+    font-size: .8rem;
+    border-radius: .5rem;
+    background-color: #c4bdd8;
+    color: white;
+    font-weight: 500;
+}
+
+.services{
+    height: 100vh;
+    position: relative;
+}
+
+.services #ellipse1{
+    position: absolute;
+    z-index: -4;
+    top: -15rem;
+    right: -6rem;
+    width: 600px;
+}
+
+.services #ellipse2{
+    position: absolute;
+    z-index: -4;
+    left: -5rem;
+    width: 900px;
+    /* bottom: -11rem; */
+}
+
+.services #ellipse3{
+    position: absolute;
+    z-index: -4;
+    right: 10rem;
+    width: 100px;
+    bottom: 2rem;
+}
+
+.sub-services{
+    margin: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sub-services .heading{
+    text-align: center;
+}
+
+.sub-services .heading h5{
+    color: #918C9F;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.serviceRow1, .serviceRow2{
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.service-items{
+    background-color: white;
+    padding: 2rem;
+    width: 13.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: 32px 22px 41.3px rgba(0, 0, 0, .05);
+}
+
+.service-items:hover{
+    transform: scale(1.04);
+}
+
+.service-items img{
+    width: 60px;
+    opacity: .5;
 }
