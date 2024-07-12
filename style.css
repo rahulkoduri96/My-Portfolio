@@ -136,7 +136,7 @@ nav{
 .about{
     background-color: white;
     display: flex;
-    padding: 5rem 10rem;
+    padding: 6rem 15rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -266,4 +266,70 @@ nav{
 .service-items img{
     width: 60px;
     opacity: .5;
+}
+
+.portfolio{
+    margin-top: 6rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 15rem;
+}
+
+.portfolio .headbar{
+    display: flex;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfolio .headbar .title h4{
+    color: #918C9F;
+}
+
+.portfolio .headbar .navlist{
+    background-color: #eeeeee;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio .headbar .navlist a{
+    text-decoration: none;
+    color: #464D70;
+    padding: .8rem 0;
+    margin: 0 2rem;
+    border-bottom: 4px solid transparent;
+}
+
+.portfolio .headbar .navlist a:hover{
+    border-bottom: 3px solid #918C9F;
+    font-weight: 700;
+}
+
+.portfolio .headbar .arrows i{
+    padding: .8rem;
+    font-size: 20px;
+
+    border-radius: .2rem;
+}
+
+.portfolio .headbar .arrows i:hover{
+    background-color: #eeeeee;
+}
+
+.portfolio .graphic{
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.portfolio .graphic img{
+    height: 20rem;
+    border-radius: .2rem;
+}
+
+.portfolio .graphic img:hover{
+    height: 20.8rem;
 }
