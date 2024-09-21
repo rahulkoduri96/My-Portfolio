@@ -441,3 +441,29 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+/* Back to Top button */
+.back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #918C9F; /* Light purple shade from your palette */
+    color: white;
+    border-radius: 50%; /* Circular shape */
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #464D70; 
+    transform: scale(1.1); 
+}
