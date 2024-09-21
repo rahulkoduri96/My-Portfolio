@@ -325,18 +325,28 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 4rem;
 }
-.portfolio .graphic img{
+.portfolio .graphic .graphic-items img{
     height: 20rem;
-    border-radius: .2rem;
+    border: 1px solid #e9e7ee;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
-.portfolio .graphic img:hover{
-    height: 20.8rem;
+.graphic-items{
+    text-align: center;
+    transform: scale(1);
 }
 
-#contact {
+.graphic-items:hover{
+    transform: scale(1.02);
+}
+
+#contact{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -408,6 +418,10 @@ nav{
 .nav-links-container .menu a{
     text-decoration: none;
     font-weight: 500;
+}
+
+.nav-links-container .menu a:hover{
+    font-weight: 800;
 }
 
 /* FOOTER */
