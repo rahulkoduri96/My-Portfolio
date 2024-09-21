@@ -88,6 +88,7 @@ nav{
     z-index: -2;
     text-align: center;
     top: 5rem;
+    z-index: -20;
 }
 .hero .background img{
     width: 40%;
@@ -122,11 +123,16 @@ nav{
 .profilePic{
     position: absolute;
     top: 10rem;
-    width: 99vw;
+    width: 70vw;
+    left: 12rem;
     text-align: center;
+    z-index: -10;
+
 }
 .profilePic img{
     width: 57%;
+    -webkit-filter: drop-shadow(40px 20px 20px #222222);
+    filter: drop-shadow(20px 20px 20px #22222231);
 }
 
 .about{
@@ -328,4 +334,96 @@ nav{
 
 .portfolio .graphic img:hover{
     height: 20.8rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    text-align: center;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 2rem auto;
+    padding: 0.5rem 2rem;
+}
+
+.section__text__p1{
+    color: #918C9F;
+    font-weight: 500;
+}
+
+#linkedin{
+    width: 2rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.54rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-info-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info-container:hover a {
+    text-decoration:underline ;
+    color: blue;
+    font-weight: 500;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+.nav-links-container{
+    margin-top: 1rem;
+}
+
+
+.nav-links-container .menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links-container .menu a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+    background-color:#918C9F;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ 
+footer p {
+    text-align: center;
 }
