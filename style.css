@@ -48,11 +48,11 @@ nav{
     text-decoration: none;
     margin: 1.5rem;
     color: #464D70;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .navbar .menu a:hover{
-    font-weight: 500;
+    font-weight: 700;
     color: black;
 }
 
@@ -70,7 +70,7 @@ nav{
 }
 
 .navbar .cv a:hover{
-    font-weight: 500;
+    font-weight: 600;
     color: black;
 }
 
@@ -79,10 +79,6 @@ nav{
     padding-left: .5rem;
 }
 
-.navbar .cv i:hover{
-    font-weight: 500;
-    color: black;
-}
 .hero{
     height: 100vh;
     /* background-color: #464D70; */
